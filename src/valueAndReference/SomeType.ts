@@ -3,8 +3,12 @@ export class SomeType {
     public numbers: number[];
     public child: SomeType;
 
-    public SomeType(){
-        this.numbers = new Array(10).fill(0);
+    public constructor(){
+      this.numbers = new Array(10).fill(0);
+      // @ts-ignore
+      this.someField = null // simulate Java behavior
+      // @ts-ignore
+      this.child = null // simulate Java behavior
     }
 
     public firstMethod(arg1: string){
