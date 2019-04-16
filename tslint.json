@@ -1,6 +1,5 @@
 {
   "extends": [
-    "tslint-microsoft-contrib",
     "tslint-config-prettier"
   ],
   "rules": {
