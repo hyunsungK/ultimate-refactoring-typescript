@@ -1,24 +1,24 @@
 export class ShoppingCart {
-  private price: number;
+  private price: number
 
   constructor() {
     // @ts-ignore
-    this.price = null; // simulate Java behavior
+    this.price = null // simulate Java behavior
   }
 
-  public add(price: number) {
-    this.price = price;
+  public add(price: number): void {
+    this.price = price
   }
 
   public calculateTotalPrice(): number {
-    return this.price;
+    return this.price
   }
 
   public hasDiscount(): boolean {
-    return this.price >= 100;
+    return this.price >= 100
   }
 
   public numberOfProducts(): number {
-    return 1;
+    return 1
   }
 }

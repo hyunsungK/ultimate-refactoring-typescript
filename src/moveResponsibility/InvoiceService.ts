@@ -1,10 +1,10 @@
-import { Invoice } from './Invoice';
+import { Invoice } from "./Invoice"
 
 export class InvoiceService {
   public calculateNetAmount(amount: string, tax: string): string {
-    const invoice = new Invoice();
-    invoice.grossAmount = Number(amount);
-    invoice.taxPercentage = Number(tax);
+    const invoice = new Invoice()
+    invoice.grossAmount = Number(amount)
+    invoice.taxPercentage = Number(tax)
 
     return (
       invoice.grossAmount - (

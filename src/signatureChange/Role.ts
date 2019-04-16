@@ -1,6 +1,6 @@
 export enum Role {
-    Dragon,
-    Witch,
-    Druid,
-    Warrior
+  Dragon,
+  Witch,
+  Druid,
+  Warrior,
 }

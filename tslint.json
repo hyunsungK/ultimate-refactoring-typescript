@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "tslint-config-prettier"
-  ],
+  "extends": ["tslint-config-prettier"],
   "rules": {
     "interface-name": [true, "never-prefix"],
     "mocha-no-side-effect-code": false,
@@ -11,11 +9,14 @@
     "promise-function-async": false,
     "no-void-expression": false,
     "prefer-type-cast": false,
+    "object-literal-key-quotes": [true, "consistent-as-needed"],
+    "no-var-keyword": true,
+    "prefer-const": [true, { "destructuring": "all" }],
+    "member-access": true,
     "typedef": [
       true,
+      "call-signature",
       "parameter",
-      "arrow-parameter",
-      "property-declaration",
       "member-variable-declaration"
     ]
   }

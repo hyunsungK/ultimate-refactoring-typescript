@@ -1,7 +1,7 @@
 export class User {
-  public profile: string[];
+  public profile: string[]
 
   public constructor() {
-    this.profile = [];
+    this.profile = []
   }
 }
