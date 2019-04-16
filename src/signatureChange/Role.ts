@@ -1,6 +1,4 @@
-package signatureChange;
-
-public enum Role {
+export enum Role {
     Dragon,
     Witch,
     Druid,
