@@ -1,6 +1,6 @@
 import { SomeType } from "../src/valueAndReference/SomeType"
 
-it("you should understand values and references", () => {
+it("means you understand values and references", () => {
   const instance = new SomeType()
 
   const arg1 = "bar"
